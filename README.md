@@ -31,6 +31,18 @@ npm run build
 # or
 yarn build
 ```
+### `instructions to run`
+Open the file
+
+```
+.env.example
+```
+
+Replace with your data
+
+```
+tobemodified
+```
 
 ## ⚙️ Deployment
 
