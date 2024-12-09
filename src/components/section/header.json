@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_section_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header_text": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "unique": false,
+      "minLength": 5
+    },
+    "header_nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.header-nav",
+      "required": true
+    }
+  }
+}

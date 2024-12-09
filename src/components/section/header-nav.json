@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_header_navs",
+  "info": {
+    "displayName": "Header_nav",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link_text": {
+      "type": "string",
+      "required": true
+    },
+    "link_header": {
+      "type": "text",
+      "required": true
+    },
+    "open_in_a_new_tab": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

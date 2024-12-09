@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_section_section_metadata",
+  "info": {
+    "displayName": "section-metadata",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 255,
+      "unique": false,
+      "minLength": 3
+    },
+    "section_id": {
+      "type": "string",
+      "regex": "^[a-zA-Z]+([0-9-]*[a-zA-Z]+)*$",
+      "required": true,
+      "maxLength": 255,
+      "minLength": 3
+    },
+    "section_background": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
